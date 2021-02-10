@@ -1,5 +1,5 @@
 {
-  "branch": "main",
+  "branch": ["master", "main"],
   "ci": false,
   "npmPublish": true,
   "plugins": [
