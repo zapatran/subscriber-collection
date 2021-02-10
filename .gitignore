@@ -1,0 +1,8 @@
+/node_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea_modules/
+encodings.xml
+/coverage/
+/build/
+/dist/
