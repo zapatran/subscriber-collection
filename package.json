@@ -1,6 +1,6 @@
 {
   "name": "@zapatran/subscriber-collection",
-  "version": "",
+  "version": "1.0.0",
   "description": "tiny package to subscribe for events",
   "license": "ISC",
   "main": "dist/index.js",
