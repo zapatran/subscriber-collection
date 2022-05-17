@@ -53,6 +53,7 @@
   "scripts": {
     "test": "jest --coverage",
     "commit": "git-cz",
+    "lint": "eslint \"**/*.{js,ts}\"",
     "semantic-release": "semantic-release",
     "build": "rm -Rf ./dist && tsc -p tsconfig.build.json",
     "prepublishOnly": "npm run build"
