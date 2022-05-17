@@ -54,7 +54,8 @@
     "test": "jest --coverage",
     "commit": "git-cz",
     "semantic-release": "semantic-release",
-    "prepublishOnly": "rm -Rf ./dist && tsc -p tsconfig.build.json"
+    "build": "rm -Rf ./dist && tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "lodash.remove": "^4.7.0"
